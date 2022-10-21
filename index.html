@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/search.css" />
     <link rel="stylesheet" href="./css/ad-banner.css" />
     <link rel="stylesheet" href="./css/shop.css" />
+    <link rel="stylesheet" href="./css/options.css" />
+    <link rel="stylesheet" href="./css/pagination.css" />
+    <link rel="stylesheet" href="./css/ad-link.css" />
+    <link rel="stylesheet" href="./css/copyright.css" />
 
     <!-- Api Imports-->
 
@@ -81,12 +85,205 @@
       </div>
       <div class="underline"></div>
     </div>
+
+    <div class="shop-container-row">
+      <div class="small-wrapper">
+        <div class="main-header">Filters</div>
+      </div>
+      <div class="big-wrapper">
+        <div class="main-header">Puppies for sale</div>
+      </div>
+    </div>
+
+    <!-- Filters -->
+
     <div class="shop-container-row">
       <div class="options-container">
-        <div class="temp-box"></div>
-        <div class="temp-box"></div>
-        <div class="temp-box"></div>
+        <div class="main-text">Category</div>
+        <select class="select">
+          <option selected>Last Updated</option>
+          <option value="Posted">Posted</option>
+          <option value="Price">Price</option>
+          <option value="Price">Name</option>
+          <option value="Price">Birth Date</option>
+        </select>
+        <div class="main-text">Order</div>
+        <select class="select">
+          <option selected>Ascending</option>
+          <option value="Descending">Descending</option>
+        </select>
+
+        <div class="main-text">Filters</div>
+        <img src="./assets/Dummy_Range_Slider.png" class="dummy-range-slider" />
+        <div class="main-text">State</div>
+        <select class="select">
+          <option selected>All</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+        <div class="main-text">Breed</div>
+        <select class="select">
+          <option selected>All</option>
+          <option id="American Bully (93)">American Bully (93)</option>
+          <option id="Aussiedoodle (164)">Aussiedoodle (164)</option>
+          <option id="Australian Shepherd (286)">
+            Australian Shepherd (286)
+          </option>
+          <option id="Beabull (98)">Beabull (98)</option>
+          <option id="Beagle (149)">Beagle (149)</option>
+          <option id="Bernedoodle (251)">Bernedoodle (251)</option>
+          <option id="Bernese Mountain Dog (297)">
+            Bernese Mountain Dog (297)
+          </option>
+          <option id="Bichon Frise (90)">Bichon Frise (90)</option>
+          <option id="Bichpoo (144)">Bichpoo (144)</option>
+          <option id="Border Collie (92)">Border Collie (92)</option>
+          <option id="Boston Terrier (306)">Boston Terrier (306)</option>
+          <option id="Boxer (342)">Boxer (342)</option>
+          <option id="Cane Corso (Italian Mastiff) (128)">
+            Cane Corso (Italian Mastiff) (128)
+          </option>
+          <option id="Cavalier King Charles Spaniel (322)">
+            Cavalier King Charles Spaniel (322)
+          </option>
+          <option id="Cavapoo (779)">Cavapoo (779)</option>
+          <option id="Cockapoo (367)">Cockapoo (367)</option>
+          <option id="Dachshund Mini (232)">Dachshund Mini (232)</option>
+          <option id="English Bulldog (164)">English Bulldog (164)</option>
+          <option id="French Bulldog (831)">French Bulldog (831)</option>
+          <option id="Frenchton (131)">Frenchton (131)</option>
+          <option id="German Shepherd (383)">German Shepherd (383)</option>
+          <option id="Golden Retriever (737)">Golden Retriever (737)</option>
+          <option id="Golden Retriever - English Cream (150)">
+            Golden Retriever - English Cream (150)
+          </option>
+          <option id="Goldendoodle (525)">Goldendoodle (525)</option>
+          <option id="Great Dane (105)">Great Dane (105)</option>
+          <option id="Jack Russell Terrier (133)">
+            Jack Russell Terrier (133)
+          </option>
+          <option id="Labradoodle (238)">Labradoodle (238)</option>
+          <option id="Labrador Retriever (548)">
+            Labrador Retriever (548)
+          </option>
+          <option id="Maltipoo (166)">Maltipoo (166)</option>
+          <option id="Mini Aussiedoodle (240)">Mini Aussiedoodle (240)</option>
+          <option id="Mini Australian Shepherd (211)">
+            Mini Australian Shepherd (211)
+          </option>
+          <option id="Mini Bernedoodle (628)">Mini Bernedoodle (628)</option>
+          <option id="Mini Goldendoodle (1041)">
+            Mini Goldendoodle (1041)
+          </option>
+          <option id="Mini Labradoodle (218)">Mini Labradoodle (218)</option>
+          <option id="Mini Sheepadoodle (150)">Mini Sheepadoodle (150)</option>
+          <option id="Miniature Poodles (645)">Miniature Poodles (645)</option>
+          <option id="Miniature Schnauzer (172)">
+            Miniature Schnauzer (172)
+          </option>
+          <option id="Pomeranian (206)">Pomeranian (206)</option>
+          <option id="Pomsky (302)">Pomsky (302)</option>
+          <option id="Poodle (Toy) (288)">Poodle (Toy) (288)</option>
+          <option id="Poodle Mix (101)">Poodle Mix (101)</option>
+          <option id="Poodles (Standard) (220)">
+            Poodles (Standard) (220)
+          </option>
+          <option id="Pug (218)">Pug (218)</option>
+          <option id="Rottweiler (135)">Rottweiler (135)</option>
+          <option id="Shiba Inu (291)">Shiba Inu (291)</option>
+          <option id="Shih Tzu (180)">Shih Tzu (180)</option>
+          <option id="Shih-Poo (193)">Shih-Poo (193)</option>
+          <option id="Siberian Husky (167)">Siberian Husky (167)</option>
+          <option id="Welsh Corgi (Pembroke) (262)">
+            Welsh Corgi (Pembroke) (262)
+          </option>
+          <option id="Yorkiepoo (106)">Yorkiepoo (106)</option>
+        </select>
+        <div class="main-text">Registration</div>
+        <select class="select">
+          <option selected>All</option>
+          <option id="(NONE) (10843)">(NONE) (10843)</option>
+          <option id="AKC (4745)">AKC (4745)</option>
+          <option id="ACA (1589)">ACA (1589)</option>
+          <option id="REGISTRABLE (675)">REGISTRABLE (675)</option>
+          <option id="ICA (365)">ICA (365)</option>
+          <option id="OTHER (280)">OTHER (280)</option>
+          <option id="CKC (174)">CKC (174)</option>
+          <option id="ICCF (69)">ICCF (69)</option>
+          <option id="APRI (64)">APRI (64)</option>
+          <option id="NKC (34)">NKC (34)</option>
+          <option id="UKC (32)">UKC (32)</option>
+        </select>
+        <div class="main-text">Size</div>
+        <select class="select">
+          <option selected>All</option>
+          <option id="Small (5903)">Small (5903)</option>
+          <option id="Medium (3150)">Medium (3150)</option>
+          <option id="Large (3127)">Large (3127)</option>
+          <option id="Standard (3071)">Standard (3071)</option>
+          <option id="Mini (2191)">Mini (2191)</option>
+          <option id="Extra Small (602)">Extra Small (602)</option>
+          <option id="Toy (383)">Toy (383)</option>
+          <option id="Extra Large (128)">Extra Large (128)</option>
+        </select>
+        <div class="main-text">Breed</div>
+        <select class="select">
+          <option selected>All</option>
+          <option id="Male (10027)">Male (10027)</option>
+          <option id="Female (8597)">Female (8597)</option>
+        </select>
       </div>
+
+      <!-- Puppies -->
 
       <div class="images-container">
         <!-- Puppy 1 -->
@@ -103,8 +300,8 @@
           <div class="image-constraint">
             <img src="assets/Puppy 2.jpeg" class="image-container" />
           </div>
-          <div class="name-container">Cherry - English Springer Spaniel</div>
-          <div class="price-container">Female<br />$1000</div>
+          <div class="name-container">Adam - Welsh Corgi</div>
+          <div class="price-container">Male<br />$1000</div>
         </div>
 
         <!-- Puppy 3 -->
@@ -112,8 +309,8 @@
           <div class="image-constraint">
             <img src="assets/Puppy 3.jpeg" class="image-container" />
           </div>
-          <div class="name-container">Adam - Welsh Corgi</div>
-          <div class="price-container">Male<br />$1000</div>
+          <div class="name-container">Cherry - English Springer Spaniel</div>
+          <div class="price-container">Female<br />$1000</div>
         </div>
 
         <!-- Puppy 4 -->
@@ -143,16 +340,131 @@
           <div class="price-container">Male<br />$1000</div>
         </div>
 
-        <!-- Puppy 6 -->
+        <!-- Puppy 7 -->
         <div class="full-item-container">
           <div class="image-constraint">
-            <img src="assets/Puppy 6.jpeg" class="image-container" />
+            <img src="assets/Puppy 7.jpeg" class="image-container" />
           </div>
           <div class="name-container">Tate - Goldendoodle</div>
           <div class="price-container">Male<br />$1000</div>
         </div>
 
+        <!-- Puppy 8 -->
+        <div class="full-item-container">
+          <div class="image-constraint">
+            <img src="assets/Puppy 8.jpeg" class="image-container" />
+          </div>
+          <div class="name-container">Bella - Aussiedoodle</div>
+          <div class="price-container">Female<br />$1000</div>
+        </div>
+
+        <!-- Puppy 9 -->
+        <div class="full-item-container">
+          <div class="image-constraint">
+            <img src="assets/Puppy 9.jpeg" class="image-container" />
+          </div>
+          <div class="name-container">Bandit - Norwegian Elkhound</div>
+          <div class="price-container">Female<br />$1000</div>
+        </div>
         <!-- End -->
+      </div>
+    </div>
+    <!-- Page Selector -->
+    <div class="center">
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+
+    <!-- Ads / Resources Selector -->
+
+    <div class="bottom-container">
+      <div class="bottom-width-constraint">
+        <div class="bottom-link-container">
+          <!-- Link 1 -->
+          <div class="bottom-link">
+            <div class="bottom-header">About us</div>
+            <div class="bottom-text">
+              Lancaster Puppies advertises puppies for sale in PA, as well as
+              Ohio, Indiana, New York and other states. Feel free to browse
+              hundreds of active classified puppy for sale listings, from dog
+              breeders in Pa and the surrounding areas. Find your new puppy
+              here!
+            </div>
+          </div>
+
+          <!-- Link 2 -->
+          <div class="bottom-link">
+            <div class="bottom-header">Buying and Selling</div>
+            <a href="#">New Arrivals</a>
+            <a href="#">Recently Updated</a>
+            <a href="#">Text List of All Breeds</a>
+            <a href="#">View All Puppies</a>
+            <a href="#">My Favorited Puppies</a>
+            <a href="#">Create a Puppy Listing</a>
+            <a href="#">Create a Stud Dog Listing</a>
+            <a href="#">Selling something else? Try PlainDirect</a>
+          </div>
+
+          <!-- Link 3 -->
+          <div class="bottom-link">
+            <div class="bottom-header">Resources</div>
+            <a href="#">Frequently Asked Questions</a>
+            <a href="#">Contact</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <div class="bottom-margin">
+          <div class="bottom-link-container">
+            <div class="bottom-a-container">
+              <div class="a-text">AD</div>
+            </div>
+            <div class="bottom-a-container">
+              <div class="a-text">AD</div>
+            </div>
+            <div class="bottom-a-container">
+              <div class="a-text">AD</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright-container">
+      <div class="bottom-width-constraint">
+        <div class="copyright-text">
+          Copyright 2013-2018 Online Advertising, LLC, Narvon PA 17555. All
+          Rights Reserved | Terms of Service Online Advertising LLC only
+          provides advertising - we do not raise or sell puppies. Website Logo,
+          Web Layout, and all pictures and text are copyright 2014-2018 by
+          Online Advertising LLC, with all rights reserved. All information is
+          believed to be accurate but is not guaranteed by Lancaster Puppies ®.
+          Please verify all information with the seller. Lancaster Puppies ® is
+          a federally registered trademark owned by Online Advertising, LLC.
+          <br />
+          <br />
+          We provide advertising for dog breeders, puppy sellers, and other pet
+          lovers offering dogs and puppies for sale. We also advertise stud dog
+          services and other puppy for sale related items.
+          <br />
+          <br />
+          Thank you to the following artists at the Noun Project and their
+          works: Paw Print by Kimberlin Ferreira Rochedo, Belgian Sheepdog,
+          Black and Tan Coonhound, Affenpinscher and Basenji by Jenna Foster,
+          Dog by juli , Terrier, Akita, Beagle and Pit Bull by parkjisun, Basset
+          Hound by Loren Holloway, German Shorthaired pointer by Becca, Dog by
+          Carolina Crespo Freytes
+        </div>
       </div>
     </div>
   </body>

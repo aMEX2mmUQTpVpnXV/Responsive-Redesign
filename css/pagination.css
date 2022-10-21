@@ -1,0 +1,46 @@
+/* Taken Directly From: https://www.w3schools.com/css/css3_pagination.asp# */
+
+:root {
+  --border-radius-pagination: 5px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 2px solid #152765;
+  margin: 0 4px;
+}
+.pagination a:first-child {
+  border-top-left-radius: var(--border-radius-pagination);
+  border-bottom-left-radius: var(--border-radius-pagination);
+}
+
+.pagination a:last-child {
+  border-top-right-radius: var(--border-radius-pagination);
+  border-bottom-right-radius: var(--border-radius-pagination);
+}
+
+.pagination a.active {
+  background-color: #152765;
+  color: white;
+  border: 2px solid #152765;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.center {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
