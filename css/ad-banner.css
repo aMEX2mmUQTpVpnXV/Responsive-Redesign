@@ -1,6 +1,7 @@
 :root {
   --text-color: #000000;
   --help-button-color: #313131;
+  --margin-a: 10px 0px;
 }
 
 .a-banner {
@@ -46,4 +47,5 @@
   align-items: center;
   overflow: auto;
   cursor: pointer;
+  margin: var(--margin-a);
 }
