@@ -67,3 +67,9 @@
   font-weight: bolder;
   font-size: 30px;
 }
+
+.social-media-icons {
+  width: 100%;
+  background-color: black;
+  display: block;
+}
