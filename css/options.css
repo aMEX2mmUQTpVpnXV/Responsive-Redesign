@@ -24,7 +24,8 @@
   border-radius: 8px;
   margin: 5px;
   padding: 8px 12px;
-  background-color: #eeeeee;
+  background-color: white;
+  color: #000000;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
