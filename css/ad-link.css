@@ -69,7 +69,10 @@
 }
 
 .social-media-icons {
-  width: 100%;
+  width: 100vw;
   background-color: black;
   display: block;
+  padding: 0;
+  border: none;
+  margin: 0;
 }
